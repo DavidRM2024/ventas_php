@@ -1,0 +1,19 @@
+{
+    "name": "david/ventas_php",
+    "description": "App to electronic sales in vanilla PHP by Emer Riascos",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DavidRM2024",
+            "email": "emer.riascos@correounivalle.edu.co"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
